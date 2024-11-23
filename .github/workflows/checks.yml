@@ -63,5 +63,5 @@ jobs:
       if: success() || failure()
       with:
         name: missing_license_headers
-        path: missing_license_headers.txt
+        path: .git/
         retention-days: 1
